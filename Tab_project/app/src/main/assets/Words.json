@@ -1,0 +1,19 @@
+{ "Words" : [
+  {
+    "Eng" : "Apple",
+    "Kor" : "사과"
+  },
+  {
+    "Eng" : "Grape",
+    "Kor" : "포도"
+  },
+  {
+    "Eng" : "Banana",
+    "Kor" : "바나나"
+  },
+  {
+    "Eng" : "Strawberry",
+    "Kor" : "딸기"
+  }
+]
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/menu_group">
+    <item
+        android:title="Add"
+        android:id="@+id/Add_option"
+        />
+    <item
+        android:title="Delete"
+        android:id="@+id/Delete_option"
+        />
+    <item
+        android:title="Save"
+        android:id="@+id/Save_option"
+        />
+    </group>
+</menu>
