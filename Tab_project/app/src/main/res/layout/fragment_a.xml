@@ -15,12 +15,19 @@
             android:id="@+id/btnShowContact1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:backgroundTint="#676767"
+            android:textColor="#8CB3FF"
+
+
+
             android:text="Show Contacts"/>
 
         <Button
             android:id="@+id/add"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:backgroundTint="#676767"
+            android:textColor="#8CB3FF"
             android:text="ADD"/>
 
 

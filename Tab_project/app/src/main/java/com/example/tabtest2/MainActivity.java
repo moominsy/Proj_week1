@@ -3,6 +3,7 @@ package com.example.tabtest2;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.text.Html;
 import android.util.Log;
@@ -29,11 +30,12 @@ public class MainActivity extends AppCompatActivity {
 
         Log.i("onCreateMain", "");
 
-        getSupportActionBar().setTitle("Tab1");
+        getSupportActionBar().setTitle("Contacts");
         tabs = findViewById(R.id.tabs);
-        tabs.addTab(tabs.newTab().setText("Tab1"));
-        tabs.addTab(tabs.newTab().setText("Tab2"));
-        tabs.addTab(tabs.newTab().setText("Tab3"));
+        tabs.addTab(tabs.newTab().setText("Contacts"));
+        tabs.addTab(tabs.newTab().setText("Album"));
+        tabs.addTab(tabs.newTab().setText("MyVoca"));
+        tabs.setTabTextColors(Color.rgb(0,0,0), Color.rgb(0,0,150));
 
         fragmentA = new FragmentA();
         fragmentB = new FragmentB();

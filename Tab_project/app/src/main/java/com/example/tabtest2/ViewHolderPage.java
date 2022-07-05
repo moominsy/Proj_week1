@@ -20,7 +20,7 @@ public class ViewHolderPage extends RecyclerView.ViewHolder{
         textview = itemView.findViewById(R.id.textview);
         rl_layout = itemView.findViewById(R.id.rl_layout);
 
-        textview.setOnClickListener(new View.OnClickListener() {
+        rl_layout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 if(word != null ) {
